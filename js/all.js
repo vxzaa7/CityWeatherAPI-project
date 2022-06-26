@@ -28,7 +28,7 @@ let weather = {
 		document.querySelector(".wind").textContent = "目前風速為" + speed + "km/h";
 		document.querySelector(".weather").classList.remove("loading");
 		document.querySelector(".error").classList.remove("block");
-		document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
+		document.body.style.backgroundImage = "url('https://source.unsplash.com/" + screen.width + "x" + screen.height +"/?" + name + "')";
 	},
 	search: function () {
 		this.fetchWeather(document.querySelector(".search-bar").value);
