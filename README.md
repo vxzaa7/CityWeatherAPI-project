@@ -1,1 +1,2 @@
-# CityWeatherAPI-project-3
+# CityWeatherAPI-project
+is API exercise :))
