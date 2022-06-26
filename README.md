@@ -1,1 +1,3 @@
-# CityWeatherAPI-project-3
+# CityWeatherAPI-project
+is API exercise :))
+ https://vxzaa7.github.io/CityWeatherAPI-project/
