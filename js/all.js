@@ -43,5 +43,6 @@ let weather = {
 	document.querySelector(".search-bar").addEventListener("keyup", function (e) {
     if(e.key == 'Enter'){
 			weather.search();
+			document.querySelector(".search-bar").value = '';
     }
   });
