@@ -91,3 +91,13 @@ body {
 
 
 }
+
+.error {
+	display: none;
+
+	&.block {
+		display: block;
+		margin-top: 15px;
+		text-align: center;
+	}
+}
